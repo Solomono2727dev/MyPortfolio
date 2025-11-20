@@ -20,13 +20,21 @@
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+    <div class="toggle-container">
+        <span>Light</span>
+        <label class="switch">
+            <input type="checkbox" id="themeToggle">
+            <span class="slider"></span>
+        </label>
+        <span>Dark</span>
+    </div>
 </nav>
 
 <!-- Hero Section -->
 <section id="hero">
     <div class="hero-content">
         <h1>Hi, I'm Solomon</h1>
-        <p>Web Developer | Designer | Creative Coder</p>
+        <p class="typewriter"></p>
         <a href="#projects" class="btn">See My Work</a>
     </div>
 </section>
@@ -34,7 +42,7 @@
 <!-- About Section -->
 <section id="about">
     <h2>About Me</h2>
-    <p>Im a passionate developer creating websites and discord bots, responsive websites using HTML, CSS, and JavaScript. And discord bots using JavaScript. I love coding clean, professional, and interactive projects that make a difference.</p>
+    <p>I'm a passionate developer creating websites and Discord bots. I make responsive websites using HTML, CSS, and JavaScript, and Discord bots using JavaScript. I love coding clean, professional, and interactive projects that make a difference.</p>
 </section>
 
 <!-- Projects Section -->
@@ -43,29 +51,42 @@
     <div class="projects-grid">
         <div class="project-card">
             <h3>TKZ Utilities</h3>
-            <p>A discord bot made for the server Tanukizaki | VBL | Global, I've made this bot to help the staff team operate smoothly through tryouts etc.</p>
+            <p>A Discord bot for Tanukizaki | VBL | Global, helping staff run smoothly.</p>
+            <a href="https://discord.gg/TVJdth4fsu" target="_blank" class="join-btn">Join Us!</a>
         </div>
         <div class="project-card">
             <h3>Ewanblox Utilities</h3>
-            <p>A discord bot made for the server Ewanblox Productions, I made this bot so we can moderate efficiently and so this bot has the features which are useful for a Roblox Production movie server.</p>
+            <p>A Discord bot for Ewanblox Productions, with moderation and Roblox production tools.</p>
+            <a href="https://discord.gg/KPhkmZyQEC" target="_blank" class="join-btn">Join Us!</a>
         </div>
         <div class="project-card">
-            <h3>Coming soon..</h3>
-            <p>Stay tuned..!</p>
+            <h3>Coming Soon..</h3>
+            <p>Stay tuned for more projects!</p>
+            <a href="#" class="join-btn disabled">Coming Soon</a>
         </div>
+    </div>
+</section>
+
+<!-- Socials Section -->
+<section id="socials">
+    <h2>Connect With Me</h2>
+    <div class="socials">
+        <a href="https://discord.com/users/1308500243448336478" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="social-icon">
+        </a>
+        <a href="https://www.roblox.com/users/3002964518/profile" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/roblox.svg" alt="Roblox" class="social-icon">
+        </a>
     </div>
 </section>
 
 <!-- Contact Section -->
 <section id="contact">
     <h2>Contact Me</h2>
-    <form id="contactForm">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
-    <p id="formMessage"></p>
+    <p>Want to reach out? DM me on Discord!</p>
+    <a href="https://discord.com/users/1308500243448336478" target="_blank">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" alt="Discord" class="discord-icon">
+    </a>
 </section>
 
 <!-- Footer -->
