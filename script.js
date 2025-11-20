@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Contact Form Submission
 const form = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
@@ -27,14 +26,3 @@ links.forEach(link => {
         });
     });
 });
-=======
-// Contact form
-const form = document.getElementById('contactForm');
-const message = document.getElementById('message');
-
-form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    message.textContent = "Thank you! Your message has been sent.";
-    form.reset();
-});
->>>>>>> a510667e36bf9fe7f4c4f84d6a06cc6b129a844c
