@@ -3,64 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Solomon | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav>
-        <div class="logo">MyPortfolio</div>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- Hero Section -->
-    <section id="hero">
+<!-- Navbar -->
+<nav>
+    <div class="logo">Solomon</div>
+    <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero">
+    <div class="hero-content">
         <h1>Hi, I'm Solomon</h1>
-        <p>Web Developer | Designer | Coder</p>
+        <p>Web Developer | Designer | Creative Coder</p>
         <a href="#projects" class="btn">See My Work</a>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I’m a web developer passionate about creating beautiful and functional websites using HTML, CSS, and JavaScript.</p>
-    </section>
+<!-- About Section -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer creating modern, responsive websites using HTML, CSS, and JavaScript. I love coding clean, professional, and interactive projects that make a difference.</p>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Short description of the project.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Short description of the project.</p>
-            </div>
-            <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Short description of the project.</p>
-            </div>
+<!-- Projects Section -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A short description of the project goes here.</p>
         </div>
-    </section>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A short description of the project goes here.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 3</h3>
+            <p>A short description of the project goes here.</p>
+        </div>
+    </div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contactForm">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-        <p id="message"></p>
-    </section>
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+</section>
 
-    <script src="script.js"></script>
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 Solomon. All rights reserved.</p>
+</footer>
+
+<!-- JS -->
+<script src="script.js"></script>
 </body>
 </html>
